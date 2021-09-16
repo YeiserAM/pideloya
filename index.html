@@ -24,6 +24,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ventana.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -112,6 +113,24 @@
   <main id="main">
 
     <!-- ======= Services Section ======= -->
+
+    <div class="ventana" id="vent" >
+      <img src="assets/img/servicios/1.jpeg" alt="">
+      <div id="cerrar"> <a href="javascript:cerrar()"><img src="assets/img/servicios/error.png" alt=""> </a></div>
+    </div>
+    <div class="ventana" id="vent2" >
+      <img src="assets/img/servicios/2.jpeg" alt="">
+      <div id="cerrar"> <a href="javascript:cerrar2()"><img src="assets/img/servicios/error.png" alt=""> </a></div>
+    </div>
+    <div class="ventana" id="ven3" >
+      <img src="assets/img/servicios/3.jpeg" alt="">
+      <div id="cerrar"> <a href="javascript:cerrar3()"><img src="assets/img/servicios/error.png" alt=""> </a></div>
+    </div>
+    <div class="ventana" id="ven4" >
+      <img src="assets/img/servicios/4.jpeg" alt="">
+      <div id="cerrar"> <a href="javascript:cerrar4()"><img src="assets/img/servicios/error.png" alt=""> </a></div>
+    </div>
+
     <section class="services">
       <div class="container">
 
@@ -119,21 +138,15 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
             <div class="icon-box icon-box-pink">
               <div class="icon"><i class="bx bx-trending-up"></i></div>
-              <h4 class="title"><a href="">Conocimiento del mercado objetivo</a></h4>
-              <p class="description"> </p> 
-              <li>Define tus objetivos.</li>
-              <li> Recopila informacion. </li>
-              <li> Define tu publico objetivo.</li>
-              <li>Conoce a tu competencia.</li>
-              <li>Realiza un dafo.</li>
-              <li>Extrae conclusiones.</li>
+              <h4 class="title"><a href="javascript:abrir1()">Conocimiento del mercado objetivo</a></h4>
+              <p class="description">Tenemos amplio conocimiento de analisis a diversos mercados de la zona</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Aprobación de vendedores y consumidores de un mercado digital</a></h4>
+              <h4 class="title"><a href="javascript:abrir2()">Aprobación de vendedores y consumidores de un mercado digital</a></h4>
               <p class="description">Publicamos en nuestra plataforma, diversos emprendimientos de grandes y pequeñas empresas.</p>
             </div>
           </div>
@@ -142,7 +155,7 @@
             <div class="icon-box icon-box-green">
               
               <div class="icon"><i class='bx bx-dollar'></i></div>
-              <h4 class="title"><a href="">Crecimiento del comercio electrónico en el Perú</a></h4>
+              <h4 class="title"><a href="javascript:abrir3()">Crecimiento del comercio electrónico en el Perú</a></h4>
               <p class="description">Gracias al comercio electronico es mas facil y rapido adquirir y vender prodcutos.</p>
             </div>
           </div>
@@ -150,7 +163,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box icon-box-blue">
               <div class="icon"><i class='bx bxs-store'></i></div>
-              <h4 class="title"><a href="">Cambios en el estilo de vida de los consumidores en la actualidad</a></h4>
+              <h4 class="title"><a href="javascript:abrir4()">Cambios en el estilo de vida de los consumidores en la actualidad</a></h4>
               <p class="description">Han surgido muchos cambios ya que es una era digital, donde nuestros clientes se adaptan al comercio electronico.</p>
             </div>
           </div>
@@ -350,6 +363,35 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- abrir -->
+  <script>
+    function abrir1(){
+      document.getElementById("vent").style.display="block";
+    }
+    function abrir2(){
+      document.getElementById("vent2").style.display="block";
+    }
+    function abrir3(){
+      document.getElementById("ven3").style.display="block";
+    }
+    function abrir4(){
+      document.getElementById("ven4").style.display="block";
+    }
+
+    function cerrar(){
+      document.getElementById("ven").style.display="none";
+    }
+    function cerrar2(){
+      document.getElementById("ven").style.display="none";
+    }
+    function cerrar3(){
+      document.getElementById("ven").style.display="none";
+    }
+    function cerrar4(){
+      document.getElementById("ven").style.display="none";
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
