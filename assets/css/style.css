@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(17, 38, 48, 0.9);
+  background: rgba(30, 30, 30, 0.684);
   transition: 0.3s;
 }
 
@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: 20px;
 }
 
 .navbar-mobile a {
@@ -286,7 +287,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -936,7 +937,7 @@ section {
 .features ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #fc9629;
 }
 
 .features p:last-child {
@@ -963,7 +964,7 @@ section {
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #c49c68;
 }
 
 .about p:last-child {
@@ -1524,17 +1525,19 @@ section {
 .contact .info-box {
   color: #444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(129, 127, 127, 0.546);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #f7a558;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #a2cce3;
+  border: 2px dotted #000000;
+
 }
 
 .contact .info-box h3 {
@@ -1552,9 +1555,10 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(95, 96, 96, 0.6);
   padding: 30px;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .contact .php-email-form .error-message {
@@ -1564,10 +1568,12 @@ section {
   text-align: left;
   padding: 15px;
   font-weight: 600;
+  border-radius: 20px;
 }
 
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
+  border-radius: 20px;
 }
 
 .contact .php-email-form .sent-message {
@@ -1606,7 +1612,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #68A4C4;
+  background-color: #c49068;
 }
 
 .contact .php-email-form input {
@@ -1617,17 +1623,19 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
-  background: #68A4C4;
+.contact .php-email-form button[type="boton"] {
+  background: #e1b16a;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 15px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #8dbad2;
+.contact .php-email-form button[type="boton"]:hover {
+  background: #d18c31;
 }
+.contact .btn btn-succes
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1646,6 +1654,9 @@ section {
     transform: rotate(360deg);
   }
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Map
@@ -2203,7 +2214,7 @@ section {
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type="submit"] {
+#footer .footer-newsletter form input[type="boton"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -2219,7 +2230,7 @@ section {
   border-radius: 50px;
 }
 
-#footer .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-newsletter form input[type="boton"]:hover {
   background: #ffa600;
 }
 
