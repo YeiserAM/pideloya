@@ -1291,6 +1291,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
   padding-bottom: 60px;
+ 
 }
 
 .portfolio #portfolio-flters {
@@ -1315,17 +1316,18 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  border-color: #68A4C4;
-  color: #68A4C4;
+  border-color: #c28400;
+  color: #fcce39;
 }
 
 .portfolio .portfolio-item {
-  background: #1e4356;
+  background: #4a3f00;
   overflow: hidden;
   min-height: 200px;
   position: relative;
   border-radius: 4px;
   margin: 0 0 30px 0;
+  border-radius: 20px;
 }
 
 .portfolio .portfolio-item img {
@@ -1377,6 +1379,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1389,16 +1392,32 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #68A4C4;
+  border: 1px solid #654e00;
+  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #68A4C4;
+  background-color: #c4af68;
 }
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(30, 67, 86, 0.08);
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.portfolio-details .portfolio-description .mapa iframe{
+  border-radius: 20px;
+  width: 415px;
+  height: 350px;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 700px) {
+  .portfolio-details .portfolio-description .mapa iframe{
+    border-radius: 20px;
+    width: 350px;
+  }
 }
 
 .portfolio-details .portfolio-info h3 {
